@@ -1,0 +1,83 @@
+* {
+    background-color: #1a1a1a;
+}
+
+header {
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+    font-weight: 500;
+    box-shadow: 10px;
+}
+
+header a {
+    float: right;
+    color: red;
+    text-decoration: none;
+    padding: 5px;
+    margin: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header a:hover {
+    font-weight: 900;
+    border: 2px solid red;
+    border-bottom: none;
+    margin: 16px;
+}
+
+header label {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    cursor: pointer;
+}
+
+header label img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a img {
+    display: inline-block;
+    vertical-align: middle;
+    size: 50%;
+  }
+    
+
+.page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    color: red;
+    border-top: 2px solid red;
+    border-left: 2px solid red;
+    background-color: #0e0e0e;
+    border-bottom: 2px solid darkred;
+    border-right: 2px solid darkred;
+    padding: 20px;
+    font-size: larger;
+    margin: 10px;
+}
+
+.button:hover {
+    color: red;
+    border-top: 2px solid darkred;
+    border-left: 2px solid darkred;
+
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    padding: 18px;
+    margin: 12px;
+}
+
+.page h1 {
+    color: red;
+}
